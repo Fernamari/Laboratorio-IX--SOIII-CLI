@@ -1,6 +1,8 @@
 Comandos utilizados, práctica laboratorio 9.2: Infraestructura como Código (IaC) y Automatización
 
-Despliegue de una VM con Terraform en DigitalOcean. ============================================
+Despliegue de una VM con Terraform en DigitalOcean.
+
+============================================
 
 #Crear token de API en DigitalOcean
 > API >Generate New Token > Name (terraform-token) >Read and Write' (full access)>Generate Token.
@@ -74,3 +76,4 @@ terraform apply
 
 #Por SSH (Reemplaza DIRECCION_IP con la IP pública del droplet)
    ssh root@DIRECCION_IP
+
